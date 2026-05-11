@@ -1,4 +1,4 @@
-
+?? Work in Progress ?? 
 TRIZ SCIENTIFIC PROJECT MANAGEMENT DASHBOARD - USER GUIDE
 
 A professional PyQt5-based desktop application for managing scientific 
