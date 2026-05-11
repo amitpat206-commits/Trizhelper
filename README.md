@@ -1,13 +1,12 @@
-================================================================================
+
 TRIZ SCIENTIFIC PROJECT MANAGEMENT DASHBOARD - USER GUIDE
-================================================================================
- 
+
 A professional PyQt5-based desktop application for managing scientific 
 projects with integrated TRIZ (Theory of Inventive Problem Solving) methodology.
  
-================================================================================
+
 INSTALLATION
-================================================================================
+
  
 1. Install Python dependencies:
    pip install PyQt5 PyQtChart
@@ -18,9 +17,8 @@ INSTALLATION
 The application will automatically create a database file (triz_projects.db) 
 to store all your project data.
  
-================================================================================
 QUICK START
-================================================================================
+
  
 STEP 1: Create a Project (Projects Tab)
   - Enter project name, category, and description
@@ -52,9 +50,9 @@ STEP 6: Track Progress (Progress & Timeline Tab)
   - Document discoveries and decisions
   - Build project timeline
  
-================================================================================
+
 DETAILED TAB DESCRIPTIONS
-================================================================================
+
  
 PROJECTS TAB
 -----------
@@ -239,9 +237,9 @@ Example Application:
     → Increases surface area and airflow efficiency
     → Reduces temperature by 15-20%
  
-================================================================================
+
 WORKFLOW EXAMPLE: MOTOR DESIGN PROJECT
-================================================================================
+
  
 PROJECT GOAL: Design efficient BLDC motor with superior thermal management
  
@@ -336,9 +334,9 @@ PHASE 7: EXPORT & DOCUMENTATION
      
      Use for: Project reports, knowledge sharing, portfolio documentation
  
-================================================================================
+
 DATA MANAGEMENT
-================================================================================
+
  
 DATABASE FILE: triz_projects.db
   - Location: Same directory as application
@@ -356,9 +354,9 @@ BACKUP STRATEGY
   3. Version control: Keep JSON exports in git/version control
   4. Cloud: Periodically backup .db file to cloud storage
  
-================================================================================
+
 TIPS & BEST PRACTICES
-================================================================================
+
  
 PROBLEM DEFINITION
   - Be specific, not vague
@@ -397,9 +395,9 @@ ORGANIZATION
   - Group related resources
   - Date all entries clearly
  
-================================================================================
+
 TROUBLESHOOTING
-================================================================================
+
  
 Cannot create project?
   - Verify project name is not empty
@@ -425,9 +423,8 @@ PyQt5 installation issues?
   - Try: pip install --upgrade PyQt5
   - On Windows: May need Visual C++ redistributables
  
-================================================================================
 KEYBOARD SHORTCUTS
-================================================================================
+
  
 General:
   Tab            - Switch between tabs
@@ -441,9 +438,8 @@ Form Fields:
   Tab            - Next field
   Shift+Tab      - Previous field
  
-================================================================================
 PROJECT STRUCTURE
-================================================================================
+
  
 triz_project_dashboard.py contains:
  
@@ -492,9 +488,9 @@ triz_project_dashboard.py contains:
     - Tab coordination
     - Project selection management
  
-================================================================================
+
 EXTENDING THE APPLICATION
-================================================================================
+
  
 Add Custom TRIZ Principles
   Edit TRIZ_PRINCIPLES dictionary in script:
@@ -517,9 +513,9 @@ Add Custom Engineering Characteristics
         ...
     ]
  
-================================================================================
+
 REFERENCES
-================================================================================
+
  
 TRIZ Theory:
   - Altshuller, G. S. "And Suddenly the Inventor Appeared"
@@ -536,9 +532,9 @@ Problem Solving:
   - Innovation Engineering principles
   - Systematic design methodology
  
-================================================================================
+
 VERSION INFO
-================================================================================
+
  
 Application: TRIZ Scientific Project Dashboard
 Version: 1.0
@@ -560,9 +556,9 @@ Requirements:
   - PyQt5
   - PyQtChart (optional)
  
-================================================================================
+
 END OF GUIDE
-================================================================================
+
  
 For best results:
 1. Start with clear problem definition
@@ -572,3 +568,4 @@ For best results:
 5. Export and backup important projects
  
 Happy innovating! 🚀
+It is made using CLaude... i dont wanna look fake...
